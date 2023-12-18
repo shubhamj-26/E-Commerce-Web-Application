@@ -1,0 +1,51 @@
+1. How can we create links to different sections within the same web page?
+ANS - 
+We can create links to different sections within the same web page by using an anchor tag helps in creating a link, that allows the users to flow through a website page without unnecessary scrolling. It can be used to link to a different section of the same page or a specific part of another HTML page.
+
+2. What are the new features introduced in HTML5?
+ANS - 
+New Semantic Elements, Forms 2.0, Persistent Local Storage, WebSocket, Server-Sent Events, Canvas, Audio & Video, Geolocation, Microdata and Drag and drop.
+
+3. What would happen if the HTML Document does not contain ?
+ANS - 
+When an HTML page is missing a Document Type Definition (DOCTYPE) declaration, the browser won’t be able to interpret it correctly.The error looks like a warning: “Doctype must be declared first.” The browser needs to understand which types of HTML and CSS you are using and render the page in standard mode. The absence of the DOCTYPE or its incorrect usage will force the browser to switch to quirks mode. It means that the browser will do its best to layout the page that is considered to be old or created against web standards.
+
+4. What are all the various elements provided by HTML5 for media content?
+ANS - 
+<audio>
+<video>
+<source>
+<embed>
+<track>
+
+5. What are the new Form elements made available in HTML5?
+ANS - 
+HTML5 introduces a number of new form elements. Some of them are <datalist>, <keygen>, <output>, <progress> and <meter>. In addition to this, there are different input types which we can use with the <input> element. In this section, we are going to look at new form elements one by one.
+
+6. List the various semantic elements in HTML5?
+ANS - 
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+7. What is a marquee?
+ANS -
+An HTML marquee is a scrolling piece of text displayed either horizontally across or vertically down your webpage depending on the settings. This is created by using HTML <marquees> tag.
+
+8. Which browsers support HTML5?
+ANS - 
+Chrome, Edge, Opera, Samsung Internet, Chrome for Android, Opera Mobile, QQ Browser, IE, Firefox, Safari on iOS, Opera Mini, and Safari support to the HTML5.
+
+9. Is HTML5 backward compatible with old browsers?
+ANS - 
+HTML5 is designed as much as possible to be backward compatible with existing web browsers. New features build on existing features and allow you to provide fallback content for older browsers.

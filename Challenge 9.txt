@@ -1,0 +1,75 @@
+1. What is asynchronous programming, and why is it important in JavaScript?
+ANS - 
+Asynchronous programming is an essential concept in JavaScript that allows the code 
+to run in the background without blocking the execution of other code.Because of 
+asynchronous we can create more efficient and responsive applications by using 
+features like callbacks, async/await, and promises.
+
+2. Why would we use JSON Over XML?
+ANS - 
+1. JSON requires less tags than XML – XML items must be wrapped in open and close tags whereas JSON you just name the tag once
+2. Because JSON is transportation-independent, you can just bypass the XMLHttpRequest object for getting your data.
+3. JavaScript is not just data – you can also put methods and all sorts of goodies in JSON format.
+4. JSON is better at helping procedural decisions in your JavaScript based on objects and their values (or methods).
+5. You can get JSON data from anywhere, not just your own domain. There’s no more proxy server nonsense.
+6. JSON is easier to read than XML – Obviously a personal preference
+
+3. what is the MIME type of JSON?
+ANS- 
+An API can accept and return data in different formats, the most common being JSON.
+We can use the consumes and produces keywords to specify the MIME types understood 
+by your API. The value of consumes and produces is an array of MIME types. Global 
+MIME types can be defined on the root level of an API specification and are 
+inherited by all API operations. Example of the API uses JSON -
+consumes:
+  - application/json
+produces:
+  - application/json
+
+
+4. what is JSONP?
+ANS -
+1. JSONP stands for JSON with Padding.
+2. JSONP is a method for sending JSON data without worrying about cross-domain issues.
+3. JSONP does not use the XMLHttpRequest object.
+4. JSONP uses the <script> tag instead.
+5. Requesting a file from another domain can cause problems, due to cross-domain policy.
+6. Requesting an external script from another domain does not have this problem.
+7. JSONP uses this advantage, and request files using the script tag instead of the XMLHttpRequest object.
+
+
+5. What are the various ajax functions available in jQuery ?
+ANS - 
+1. $.ajax() -	Performs an async AJAX request.
+2. $.ajaxPrefilter() -	Handle custom Ajax options or modify existing options before each request is sent and before they are processed by $.ajax().
+3. $.ajaxSetup() -	Sets the default values for future AJAX requests.
+4. $.ajaxTransport() -	Creates an object that handles the actual transmission of Ajax data.
+5. $.get() -	Loads data from a server using an AJAX HTTP GET request.
+6. $.getJSON() -	Loads JSON-encoded data from a server using a HTTP GET request.
+7. $.parseJSON() -	Deprecated in version 3.0, use JSON.parse() instead. Takes a well-formed JSON string and returns the resulting JavaScript value.
+8. $.getScript() -	Loads (and executes) a JavaScript from a server using an AJAX HTTP GET request.
+9. $.param() -	Creates a serialized representation of an array or object (can be used as URL query string for AJAX requests).
+10. $.post()-	Loads data from a server using an AJAX HTTP POST request.
+11. ajaxComplete() -	Specifies a function to run when the AJAX request completes.
+12. ajaxError() -	Specifies a function to run when the AJAX request completes with an error.
+13. ajaxSend() -	Specifies a function to run before the AJAX request is sent.
+14. ajaxStart() -	Specifies a function to run when the first AJAX request begins.
+15. ajaxStop() -	Specifies a function to run when all AJAX requests have completed.
+16. ajaxSuccess() - 	Specifies a function to run when an AJAX request completes successfully.
+17. load() -	Loads data from a server and puts the returned data into the selected element.
+18. serialize() -	Encodes a set of form elements as a string for submission.
+19. serializeArray() -	Encodes a set of form elements as an array of names and values.
+
+
+6. What is the correct JSON content type ?
+ANS - 
+Content-Type is an HTTP header that is used to indicate the media type of the resource and in the case of responses, 
+it tells the browser about what actually content type of the returned content is. In case of any POST or PUT requests,
+the client tells the server about the kind of data sent.
+To know about the type of content the browser is going to encounter, it does a MIME sniffing. MIME or Multipurpose 
+Internet Mail Extension is a specification for non-text e-mail attachments. It allows the mail client or Web browser 
+to send and receive different file formats as an attachment over the Email. For receiving a JSON request, it is 
+important to mention or tell the browser about the type of request it is going to receive. So we set its MIME type 
+by mentioning it in the Content-Type. We can do the same in two ways:  
+MIME type: application/json
+MIME type: application/javascript

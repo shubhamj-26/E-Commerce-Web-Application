@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swag of India</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Great+Vibes&family=Russo+One&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="top-navigation" id="top">
+      <div class="social-media-icons">
+        <div><i class="fa fa-facebook" aria-hidden="true"></i></div>
+        <div><i class="fa fa-youtube" aria-hidden="true"></i></div>
+        <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+      </div>
+      <div class="search-wrapper">
+        <input type="text" id="search" placeholder="Search Products & Brands" />
+        <i class="fa fa-search icon-search" aria-hidden="true"></i>
+      </div>
+      <div class="telephone-wrapper">
+        <div class="round-icons-div">
+          <i class="fa fa-phone" id="phone-icon" aria-hidden="true"></i>
+        </div>
+        <a id="no">+91 9008008085</a>
+      </div>
+      <div class="sell-on-compony" id="sell">
+        <a class="anchor" href="https://www.swagofindia.com">Sell On Company</a>
+      </div>
+      <div class="download-app">
+        <a class="anchor" href="https://www.swagofindia/download"
+          >Download App</a
+        >
+      </div>
+
+      <div class="coutry-wrapper">
+        <img class="flag" id="flag" src="/images/India.png" alt="Indian Flag" />
+      </div>
+
+      <select name="language" id="country" onclick="countryMap()">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+      </select>
+
+      <!-- <div class="coutry-wrapper">
+            <select name="language" id="language">
+              <option value="English">English</option>
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+            </select>
+          </div> -->
+    </nav>
+
+    <nav class="main-navigation" id="header-sticky">
+      <div class="container">
+        <div>
+          <div>
+            <a id="logo" href="./index.html"
+              ><img src="images/logo.png" alt="logo"
+            /></a>
+
+            <nav>
+              <ul class="list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Categories</a></li>
+                <li><a href="">Latest</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="wishlist">
+            <div><img src="./images/wishlist.png" /></div>
+            <div><img src="./images/cart.png" /></div>
+            <button data-toggle="modal" data-target="#exampleModal">
+              Sign in
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <div class="modal-body login">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="home-tab"
+                  data-toggle="tab"
+                  href="#home"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                  >LOGIN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="profile-tab"
+                  data-toggle="tab"
+                  href="#profile"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >CREATE ACCOUNT</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <form class="form">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email </label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Password"
+                      required
+                    />
+                    <!-- <div id="empty-div"></div><i class="far fa-eye" id="togglePassword"></i> -->
+                    <div id="empty-div"></div>
+                    <i
+                      class="fa fa-eye"
+                      aria-hidden="true"
+                      id="togglePassword"
+                    ></i>
+                  </div>
+                  <!-- <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div> -->
+                  <button type="submit" class="btn btn-primary sign-in1">
+                    SIGN IN
+                  </button>
+                  <button type="submit" class="btn btn-primary sign-in2">
+                    FORGOT YOUR PASSWORD?
+                  </button>
+                  <hr class="line-text" />
+                </form>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Username </label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter username"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email </label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail2"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword"
+                      placeholder="Password"
+                      required
+                    />
+                    <div id="empty-div"></div>
+                    <i
+                      class="fa fa-eye"
+                      aria-hidden="true"
+                      id="togglePassword"
+                    ></i>
+                    <!-- <div id="empty-div"></div><i class="fa-solid fa-eye" id="togglePassword"></i> -->
+                  </div>
+
+                  <button type="submit" class="btn btn-primary create-account">
+                    CREATE ACCOUNT
+                  </button>
+                  <hr class="line-text" />
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer"> -->
+
+          <p class="login-with-text">Or Login With</p>
+
+          <div class="facebook-twitter-google">
+            <button type="submit" class="btn facebook-button1">
+              <i class="fa fa-facebook"></i>
+              FACEBOOK
+            </button>
+            <button type="submit" class="btn twitter-button1">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              TWITTER
+            </button>
+            <button type="submit" class="btn google-button1">
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+              GOOGLE
+            </button>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JavaScript/script.js"></script>
+  </body>
+</html>
