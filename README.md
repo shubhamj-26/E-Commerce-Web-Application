@@ -18,19 +18,21 @@
 
 An e-commerce web application built using HTML, CSS, Bootstrap, and JavaScript. This platform enables businesses to sell products or services online, providing features such as product listings, a shopping cart, secure payment processing, and order management. The application is designed to offer a user-friendly experience for customers while ensuring a secure and efficient sales process for businesses.
 
-## 🏁Features
+## 🏁 Features
 
-- **Product Listings:** Browse through a wide range of products with detailed descriptions and images.
-- **Shopping Cart:** Add products to your cart and review your selections before making a purchase.
-- **Payment Processing:** Secure payment options for a seamless checkout experience.
-- **Order Management:** Track your orders and view order history.
+- 📦 **Product Listings:** Browse through a wide range of products with detailed descriptions and images.
+- 🛒 **Shopping Cart:** Add products to your cart and review your selections before making a purchase.
+- 💳 **Payment Processing:** Secure payment options for a seamless checkout experience.
+- 📑 **Order Management:** Track your orders and view order history.
 
-## 🔧Technologies Used
+## 🔧 Technologies Used
 
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
+- 🌐 HTML
+- 🎨 CSS
+- 🅱️ Bootstrap
+- 🚀 JavaScript
 
-## ✍️ Author <a name = "author"></a>
-- [@Shubham Jadhav](https://github.com/shubhamj-26)
+## ✍️ Author
+
+- 👤 [@Shubham Jadhav](https://github.com/shubhamj-26)
+
