@@ -12,3 +12,25 @@
 ![My Order](https://github.com/shubhamj-26/E-Commerce-Web-Application/assets/129495808/109866ec-ccf6-4c56-ab65-582014e8cb10)
 ![Login](https://github.com/shubhamj-26/E-Commerce-Web-Application/assets/129495808/dfaf4108-6fd0-47c9-8cd1-bb9ea5a19792)
 
+# E-Commerce Web Application
+
+## 🧐 Overview
+
+An e-commerce web application built using HTML, CSS, Bootstrap, and JavaScript. This platform enables businesses to sell products or services online, providing features such as product listings, a shopping cart, secure payment processing, and order management. The application is designed to offer a user-friendly experience for customers while ensuring a secure and efficient sales process for businesses.
+
+## 🏁Features
+
+- **Product Listings:** Browse through a wide range of products with detailed descriptions and images.
+- **Shopping Cart:** Add products to your cart and review your selections before making a purchase.
+- **Payment Processing:** Secure payment options for a seamless checkout experience.
+- **Order Management:** Track your orders and view order history.
+
+## 🔧Technologies Used
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+## ✍️ Author
+@Shubham Jadhav
